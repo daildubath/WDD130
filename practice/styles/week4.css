@@ -1,0 +1,33 @@
+main{
+    background-color: lightblue;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#green{
+    color: green;
+}
+
+footer p{
+    color:hotpink;
+}
+
+img{
+    height: 500px;
+}
+
+p{
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+}
+
+a:hover{
+    background-color: chartreuse;
+    color: lavender;
+}
+
+#img2{
+    height: 100px;
+}
