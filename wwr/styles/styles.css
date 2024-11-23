@@ -44,11 +44,6 @@
     grid-row: 4/9;
 }
 
-#content{
-    max-width: 1600px;
-    margin: 0 auto;
-}
-
 nav a{
     text-align: center;
     text-decoration: none;
@@ -91,10 +86,6 @@ h2{
 main section{
     text-align: center;
     box-sizing: border-box;
-}
-
-#background {
-    height: 725px;
 }
 
 body{
