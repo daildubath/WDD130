@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/week12.css">
+    <title>Week 12 Component Activity</title>
+</head>
+
+<body>
+    <h1>NOODLES</h1>
+    <button class="accordion">A World of Noodles</button>
+    <div class="panel">
+        <p>Noodles are a culinary marvel found in countless cultures worldwide. From the thin strands of Italian
+            spaghetti to the hearty ribbons of Chinese hand-pulled noodles, they offer a versatile base for nearly any
+            dish. Their simplicity belies the creativity they inspire, with textures and flavors as diverse as the
+            people who enjoy them.</p>
+    </div>
+
+    <button class="accordion">The Art of Noodle Making</button>
+    <div class="panel">
+        <p>Crafting noodles is a tradition steeped in history and skill. Whether rolled and cut by hand or extruded by
+            modern machinery, the process transforms humble ingredients like flour and water into something
+            extraordinary. Each method has its own charm, yielding unique shapes and characteristics that influence the
+            final dish's taste and presentation.</p>
+    </div>
+
+    <button class="accordion">Endless Possibilities</button>
+    <div class="panel">
+        <p>Noodles shine in an endless array of dishes, from soothing soups to stir-fries bursting with flavor. They can
+            be dressed in rich sauces, paired with fresh vegetables, or enhanced by bold spices. This versatility has
+            made noodles a staple in cuisines worldwide, uniting people through a shared love for this humble yet
+            extraordinary food.</p>
+    </div>
+</body>
+
+<script>
+    var acc = document.getElementsByClassName("accordion");
+var i;
+
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight) {
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    }
+  });
+}
+</script>
+
+</html>
