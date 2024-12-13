@@ -3,12 +3,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Kavivanar&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
 
 body{
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
-}
-
-.content{
     max-width: 1600px;
+    min-width: 580px;
 }
 
 /* header css */
@@ -21,7 +19,7 @@ header{
     background-color: #BCEDF6;
     font-weight: 600;
     font-family: kavivanar, Arial, Helvetica, sans-serif;
-    border-bottom: solid 2px #320E3B;;
+    border-bottom: solid 2px #320E3B;
 }
 
 
@@ -188,4 +186,95 @@ footer a:hover{
 
 #daddysgirl h2{
     margin-top: -30px;
+}
+
+/* PRESENTATIONS */
+
+#present-main{
+    font-size: 0.75em;
+    max-width: 1600px;
+    text-align: center;
+    text-indent: 0;
+}
+
+#pres-hero{
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+}
+
+.black3{
+    border: double 7px black;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    border-top: none;
+}
+
+#presentation{
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+    padding: 30px;
+    margin-top: -230px;
+    text-indent: 27%;
+}
+
+#powerpoint{
+    display: block;
+    background-color: black;
+    margin: 0 auto;
+    width: 100%;
+}
+
+iframe{
+    width: 80vw;
+    max-width: 800px;
+    height: calc(80vw/16*9);
+    max-height: 450px;
+}
+
+#present-main a{
+    color: white;
+    padding: 16px;
+    text-decoration: none;
+}
+
+#present-main a:visited{
+    text-decoration: underline;
+    color: #BCEDF6;
+}
+
+#present-main a:hover{
+    font-size: 1.1em;
+    font-weight: 800;
+}
+
+#present-main a:active{
+    color: #6B7FD7;
+}
+
+.black1 p, .p-n-links{
+    color: white;
+    padding: 20px;
+    background-color: black;
+    border: double white 5px;
+    border-radius: 6px;
+}
+
+.black1{
+    background-image: url("/wdd130/final-project/images/desertflower.jpg");
+    border: double white 5px; 
+    border-radius: 6px;
+}
+
+.black2{
+    background-image: url("/wdd130/final-project/images/jellyfish.jpg");
+    border: double white 5px; 
+    border-radius: 6px;
+    padding-bottom: 40px;
+
+    border-bottom: none;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
 }
