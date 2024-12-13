@@ -240,11 +240,6 @@ iframe{
     text-decoration: none;
 }
 
-#present-main a:visited{
-    text-decoration: underline;
-    color: #BCEDF6;
-}
-
 #present-main a:hover{
     font-size: 1.1em;
     font-weight: 800;
